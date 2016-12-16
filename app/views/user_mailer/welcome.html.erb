@@ -1,0 +1,7 @@
+<h1>Welcome <%= @user.username %>!</h1>
+
+<p>Here's your secure plaintext password:</p>
+<p>Just kidding!</p>
+
+<p>View your account:</p>
+<p><%= link_to @user.username, user_url(@user) %></p>

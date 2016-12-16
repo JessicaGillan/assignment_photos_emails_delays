@@ -1,0 +1,7 @@
+Welcome <%= @user.username %>!
+
+Here's your secure plaintext password:
+Just kidding!
+
+View your account:
+<%= link_to @user.username, user_url(@user) %>
